@@ -8,8 +8,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 -->
 <div align="center">
 
-  <img src="assets/stm_logo.png" alt="logo" width="200" height="auto" />
-<h1>Stanford Temperature Model</h1>
+  <img src="assets/stm_logo.png" alt="logo" width="500" height="auto" />
   
 <!--   <p>
     Stanford Temperature Model 
