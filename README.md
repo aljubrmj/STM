@@ -69,9 +69,6 @@ Provided here are various forms of the Stanford Thermal Earth Model, as well as 
 
 A data-driven spatial interpolation algorithm based on physics-informed graph neural networks was used to develop these national temperature-at-depth maps. The model satisfied the three-dimensional heat conduction law by predicting subsurface temperature, surface heat flow, and rock thermal conductivity. Many physical quantities, including bottomhole temperature, depth, geographic coordinates, elevation, sediment thickness, magnetic anomaly, gravity anomaly, gamma-ray flux of radioactive elements, seismicity, and electric conductivity were used as model inputs. Surface heat flow, temperature, and thermal conductivity predictions were constructed for depths of 0-7 km at an interval of 1 km with spatial resolution of 18 km2 per grid cell. The model showed superior temperature, surface heat flow and thermal conductivity mean absolute errors of 4.8C, 5.817 mW/m2 and 0.022 W/(C-m), respectively.
 
-This work is based on a [journal article published in Applied Energy](https://doi.org/10.1016/j.apenergy.2023.122125).
-This was developed in the Stanford Geothermal Program to serve as a tool for evaluating the techno-economics of flexible geothermal operations. It makes use of anlytical and iterative models alongside correlations develoepd in other works[^1][^2][^3]. It involves the techno-economic modeling of thermal energy storage and battery units towards flexible generation.
-
 <!-- Screenshots -->
 <!-- ### :camera: Screenshots
 
