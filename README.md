@@ -9,10 +9,10 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
 
   <img src="assets/stm_logo.png" alt="logo" width="200" height="auto" />
-<h1>Stanford Thermal Model</h1>
+<h1>Stanford Temperature Model</h1>
   
 <!--   <p>
-    Stanford Thermal Model 
+    Stanford Temperature Model 
     You can directly access this webapp online at [http://www.stanford-temperature-model.com/](http://www.stanford-temperature-model.com/)
   </p> -->
   
