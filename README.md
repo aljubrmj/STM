@@ -182,7 +182,7 @@ pip install -r requirements.txt
 <!-- Running Tests -->
 ### :test_tube: Running Locally
 
-To run localy, run the following command in the STM directory
+To run locally, run the following command in the STM directory
 
 ```bash
   python app.py
