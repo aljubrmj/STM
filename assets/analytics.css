@@ -1,0 +1,877 @@
+@font-face {
+    font-family: Acumin;
+    font-weight: bold;
+/*    src: url("Acumin-BdPro.otf") format("opentype");*/
+}
+
+#app-container {
+    width: 100%;
+    max-width: none;
+}
+
+body {
+/*    background-color: #f9f9f9;*/
+/*  #e3ecff   #e9edf5*/
+    background-color: #F4F4F4;
+/*    background-color: #edf3ff;*/
+    color: #333333;
+    font-size: 15px;
+    margin: 0px;
+}
+
+hr {
+    margin: 0.3rem 0rem;
+}
+
+.banner {
+    height: 5.5rem;
+    padding: 0rem 2rem 0rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner Img {
+    position: relative;
+    height: 3rem;
+    width: auto;
+    margin-left: 2%;
+}
+
+H5 {
+/*    color: #c98600;*/
+/*    color: #686e75;*/
+    color: #F4F4F4;
+    font-weight: 300;
+/*   AB: font-weight pending */
+}
+
+H5, H3 {
+    font-family: Acumin, "Helvetica Neue", sans-serif;
+/*    margin-top: -6px;*/
+}
+
+#logo {
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+    /* border: 5px solid #8C1515; */
+}
+
+#disclaimer-text {
+    line-height: 1.15 !important;
+    padding: 15px !important;
+    text-align: left !important;
+    font-weight: normal !important;
+    font-style: italic !important;
+}
+
+
+#scenario1_text {
+    position: absolute;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 10px;
+    top: 48px;
+    color: #dcebfc;
+    line-height: 1.1;
+}
+
+#scenario2_text {
+    position: absolute;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 10px;
+    top: 50px;
+    color: #dcebfc;
+    line-height: 1.1;
+}
+
+#scenario3_text {
+    position: absolute;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 10px;
+    top: 48px;
+    color: #dcebfc;
+    line-height: 1.1;
+}
+
+#scenario1-div, #scenario2-div, #scenario3-div{
+    position: relative;
+}
+
+/* #left-column-div {
+    margin-top: 20px;
+    text-align: center;
+    border:solid 1px #766253 !important;
+    min-height: calc(110vh - 5.5rem);
+    width: auto;
+} */
+
+#left-column {
+    background-color: white;
+    width: 30%;
+    margin-top: 8px;
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    min-height: calc(100vh - 5.5rem);
+}
+
+
+#right-column {
+    background-color: white;
+    width: 65%;
+    margin-top: 8px;
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    min-height: calc(100vh - 5.5rem);
+}
+
+#one-column {
+    margin-top: 8px;
+    width: 100%;
+    background-color: white;
+    padding: 0rem 1rem;
+    min-height: calc(110vh - 5.5rem);
+    
+}
+
+.table-row {
+    height: 63px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+#hr-break1 #hr-break2 #hr-break3 {
+    background-color: #8C1515;
+    color: #8C1515;
+    opacity: 100%;
+    border: none;
+    height: 5px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+#ab-title1, #ab-title2, #ab-title3 {
+    font-weight: bold;
+    /* margin-bottom: -7px; */
+    /* padding: 15px; */
+    font-size:16px !important;
+    text-align: center;
+    background-color: #ede6dd;
+    color: #383838;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+/* #ab-title3 {
+    font-weight: bold;
+    margin-bottom: -7px;
+    padding: 15px;
+    font-size:16px !important;
+    text-align: center;
+    background-color: #ede6dd;
+    color: #383838;
+    height: 10%;
+} */
+
+#ab-title4 {
+    font-weight: bold;
+    /* margin-bottom: -7px; */
+    /* padding: 15px; */
+    font-size:40px !important;
+    text-align: center;
+    /* background-color: #ede6dd; */
+    color: red;
+    /* height: 10%; */
+}
+
+#temp-fig {
+    height: 10%;
+}
+
+#ab-note2, #ab-note3, #ab-note4 {
+    margin-top: -30px;
+    padding: 15px;
+    text-align: justify;
+}
+
+#description-card2, description-card1{
+    text-align: justify;
+    padding: 10px;
+}
+
+#bio-note1, #bio-note2 {
+    /* margin-top: -10px; */
+    /* padding: 15px; */
+    margin: 0px 15px 0px 15px;
+    text-align: justify;
+}
+
+#developers-div {
+    background-color: white
+}
+
+#team-info1, #team-info2, #team-info3{
+    text-align: justify;
+}
+
+#arcgis-link1, #arcgis-link2 {
+    display: inline-block;
+}
+/* #developer-name1, #developer-name2 {
+    white-space: pre;
+} */
+
+/* #formulas-img1, #formulas-img2 {
+    display: block;
+    text-align: center;
+} */
+
+/* #about-tab, #summary-tab {
+    background-color: #8C1515;
+    width: 30%;
+    font-size: 14px;
+    color: #B83A4B;
+    border: #8C1515;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-style: solid;
+    border-color: #8C1515;
+    border-bottom: 5px solid #DAD7CB !important;
+
+
+} */
+
+#contour-tab, #subsurface-tab {
+    background-color: #8C1515;
+    width: 50%;
+    font-size: 14px;
+    color: #B83A4B;
+    border: #8C1515;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-style: solid;
+    border-color: #8C1515;
+    /* border-bottom: 5px solid #DAD7CB !important; */
+}
+
+#about-tab {
+    background-color: #8C1515;
+    width: 50%;
+    font-size: 14px;
+    color: #B83A4B;
+    border: #8C1515;
+    font-weight: bold;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 7px; */
+    border-style: solid;
+    border-color: #8C1515;
+}
+
+#econ-tab:hover, #summary-tab:hover, #contour-tab:hover, #subsurface-tab:hover, #about-tab:hover{
+  color: white !important;
+  background-color: #8C1515;
+  border-color: #8C1515;
+  font-weight: bold;
+  border-bottom: 5px solid #DAD7CB !important;
+}
+
+
+#btn_xlsx {
+    float: right;
+    width: 30%;
+    border: 1.5px white solid;
+    background-color: #ede6dd;
+
+}
+
+#tabs {
+    height: 40px;
+    background-color: #8C1515 !important;
+}
+
+#btn-nclicks-1:hover {
+    background-color: #8C1515 !important;
+/*    transition-delay: 0.06s !important;*/
+    transition: all 300ms ease !important;
+/*    border: 1.5px white solid !important;*/
+}
+#btn-nclicks-2:hover {
+    background-color: #8C1515 !important;
+/*    transition-delay: 0.06s !important;*/
+/*    border: 1.5px white solid !important;*/
+    transition: all 300ms ease !important;
+}
+#btn-nclicks-3:hover {
+    background-color: #8C1515 !important;
+/*    transition-delay: 0.06s !important;*/
+    transition: all 300ms ease !important;
+
+/*    border: 1.5px white solid !important;*/
+}
+
+#btn-nclicks-1 {
+    height: 135px !important;
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-bottom: 85px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-color: #8C1515 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size:12px !important;
+    text-decoration:none !important;
+    color:#fff !important;
+    position:relative !important;
+/*    padding:10px 20px !important;*/
+    border:solid 1px #8C1515 !important;
+/*    margin-left:35px !important;*/
+    background-image: linear-gradient(bottom, #8C1515 0%, #8C1515 100%) !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    box-shadow: inset 40px 0px 0px #ffffff, 0px 0px 0px 0px #B83A4B, 0px 0px 1px #D5D5D4 !important;
+}
+
+#btn-nclicks-2 {
+    height: 90px !important;
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-bottom: 55px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-color: #8C1515 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size:12px !important;
+    text-decoration:none !important;
+    color:#fff !important;
+    position:relative !important;
+/*    padding:10px 20px !important;*/
+    border:solid 1px #8C1515 !important;
+/*    margin-left:35px !important;*/
+    background-image: linear-gradient(bottom, #8C1515 0%, #8C1515 100%) !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    box-shadow: inset 40px 0px 0px #83c6e6, 0px 0px 0px 0px #156785, 0px 0px 1px #999 !important;
+}
+
+
+#btn-nclicks-3 {
+    height: 104px !important;
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-bottom: 55px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-color: #8C1515 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size:12px !important;
+    text-decoration:none !important;
+    color: #fff !important;
+    position:relative !important;
+/*    padding:10px 20px !important;*/
+    border:solid 1px #8C1515 !important;
+/*    margin-left:35px !important;*/
+    background-image: linear-gradient(bottom, #8C1515 0%, #8C1515 100%) !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    box-shadow: inset 40px 0px 0px #78bf8b, 0px 0px 0px 0px #156785, 0px 0px 1px #999 !important;
+}
+
+/*#btn-nclicks-3 > p {
+    font-size: 9px !important;
+}*/
+
+/*#btn-nclicks-2:active {
+    top:3px;
+    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}*/
+#collapse-button3 {
+    position: relative;
+    /* width: 100%; */
+    height: 50px;
+    padding-bottom: 7 px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration:none !important;
+    color: #fff !important;
+    background-color: #766253 !important;
+    border:solid 1px #766253 !important;
+    font-size:12px !important;
+}
+#collapse-button3:hover {
+    background-color: #766253 !important;
+}
+
+#contact-us1 {
+    /* vertical-align:top; */
+    font-size:16px !important;
+    font-weight: bold;
+    text-align: justify;
+    background-color: #ede6dd;
+    color: #383838;
+    text-align: center;
+    /* border-top: 1px black !important; */
+}
+
+#acknowledgements-1 {
+    /* vertical-align:top; */
+    font-size:16px !important;
+    font-weight: bold;
+    text-align: justify;
+    background-color: #ede6dd;
+    color: #383838;
+    text-align: center;
+    margin: 1rem 0rem 1rem 0rem;
+    /* border-top: 1px black !important; */
+}
+
+
+#coming-soon {
+    font-size:16px !important;
+    font-weight: bold;
+    text-align: center;
+    /* background-color: #ede6dd; */
+    color: #383838;
+    margin: 40vh 0rem 1rem 0rem;
+}
+
+#comingsoon-label1, #comingsoon-label2 {
+    font-weight: bold;
+    /* margin-bottom: -7px; */
+    /* padding: 15px; */
+    font-size:16px !important;
+    text-align: center;
+    /* background-color: #ede6dd; */
+    /* color: #383838; */
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+#contact-us2 {
+    text-align: justify;
+}
+
+#error-img1, #error-img2, #error-img3, #warning-img {
+    height: 5%;
+    width: 5%;
+    display: inline-block;
+
+}
+
+#cluster-img {
+    height: 45%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    margin-top: -35px;
+
+}
+
+#carousel-ride {
+    margin-top: -8px;
+}
+
+#image-container {
+    /* float: center; */
+    /* align: center; */
+    /* position: absolute; */
+    /* margin-bottom: 20px; */
+    /* left: 50%; */
+    margin-left: 25%;
+    width: 50%;
+
+}
+
+#intro2 {
+    margin-top: 0px;
+    text-align: center;
+    border:solid 1px #766253 !important;
+}
+
+#intro2, #image-container-left {
+    /* float: center; */
+    /* position: absolute; */
+    /* margin-top: 3%; */
+    /* margin-bottom: 100px; */
+    /* left: 50%; */
+    /* margin-left: -15px; */
+    /* height: 10%; */
+    width: 100%;
+    /* display: block; */
+
+}
+
+#iframe-container {
+    /* padding:0px;  */
+    margin:0; 
+    width:100%; 
+    height:100%;
+}
+
+/*collab_image_style = {'height': '45%',
+                      'width': '100%',
+                      'object-fit': 'contain',
+                      # 'overflow': 'hidden',
+                      'margin-top': '-35px'
+                          }*/
+
+.geothermal_plots > div, .geothermal_plots > div {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.econ_plots > div, .econ_plots > div {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.draglayer {
+    cursor: pointer !important;
+}
+
+.image-container {
+    position: relative;
+    height: 50%;
+}
+#intro {
+    margin: 15px 0px;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: justify;
+}
+
+#control-card > p {
+    font-weight: bold;
+}
+
+#control-card {
+    text-align: center;
+}
+
+
+#dropdown-card4 {
+    width: 20%;
+}
+
+/*#dropdown-card4 {
+    width: 33%;
+}
+*/
+#dropdown-container {
+    width: 100% !important;
+    margin-top: -15px !important;
+    display: inline-flex !important;
+    justify-content: space-between !important;
+    text-align: left !important; 
+    /* change to inline-block for them to be stacked */
+}
+
+#dropdown-card1 > p {
+    font-weight: bold;
+}
+#dropdown-card2 > p {
+    font-weight: bold;
+}
+#dropdown-card3 > p {
+    font-weight: bold;
+}
+#dropdown-card4 > p {
+    font-weight: bold;
+}
+/*#dropdown-card5 > p {
+    font-weight: bold !important;
+}*/
+#select-text1 #select-text2 #select-text3 {
+    /* font-weight: bold !important; */
+    /* font-size: 16px !important; */
+    padding-top: 10px;
+    /* text-align: center; */
+    /* margin: 100px 100px 10px 10px; */
+}
+
+#profile-div {
+    margin: 20px 10px 0px 0px;
+}
+
+#arcgis_src {
+    margin: 5px 0px 0px 0px ;
+    height: 38vh;
+}
+#tempprofile-out, #ggprofile-out, #condprofile-out {
+    margin: 20px 0px 0px 0px ;
+    height: 50vh;
+}
+
+#profile-row {
+    margin: 0px 0px 0px 5%
+}
+
+#latlon-inputs0{
+    margin: 0px 0px 0px 0px;
+
+} 
+
+#latlon-inputs1 #latlon-inputs2 #latlon-inputs3 {
+    margin: 10px 100px 0px 0px;
+
+} 
+
+#lon-input #lat-input #depth-input {
+    width: 100%;
+    /* margin-bottom: 200px; */
+    /* margin: 10px 10px 10px 10px; */
+}
+
+#slider-container {
+    display: flex;
+}
+#therm-sliders, #econ-sliders {
+    width: 49%;
+    display: inline-block;
+}
+
+
+/* #geothermal_card {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+
+} */
+
+/* background-color: white;
+width: 48%;
+margin-top: 8px;
+display: flex;
+padding: 7px;
+flex-direction: column;
+min-height: calc(120vh - 5.5rem); */
+
+/* #geothermal_card > b {
+    line-height: 1.75;
+} */
+
+
+/* #collapse-button2 {
+    padding-top: -100px;
+} */
+
+#profile-row1, #profile-row2 {
+    position: relative;
+    margin: 0rem 0rem 0rem 0rem;
+    /* padding-top: 1%; */
+}
+
+#profile-row0 {
+    position: relative;
+    /* margin-top: -1.5%; */
+    margin: 1rem 0rem 1rem 0rem;
+    text-align: center;
+}
+
+#map {
+    position: relative;
+    height: 20vh;
+}
+
+#graphics-container {
+    position: relative !important;
+/*    display: inline-block;*/
+}
+
+#graphics-container-econ {
+    position: relative !important;
+/*    display: inline-block;*/
+}
+
+
+#radio-graphic-control3, #radio-graphic-control4 {
+    width: 70px;
+    float: right;
+    background-color: white !important;
+    color: black;
+    padding-left: 10px;
+    padding-right: 0px;
+    border:solid 1px #174887 !important;
+    font-size: 12px !important;
+    box-shadow: inset 27px 0px 0px #174887, 0px 0px 0px 0px #156785, 0px 0px 1px #999 !important;
+    margin-top: -600px;
+    margin-right: 23px;
+    border-radius: 3px 3px 3px 3px;
+/*    z-index: 3;*/
+    position: sticky;
+}
+
+
+#geothermal_time_plots {
+    height: 735px;
+/*    width: 100%;*/
+    position: relative !important;
+}
+
+#econ_plots {
+    position: relative !important;
+}
+
+#geothermal_plots {
+    height: 735px;
+}
+#econ_plots {
+    height: 735px;
+}
+/*420*/
+#geothermal_plots2 {
+    height: 620px;
+}
+#econ_plots2 {
+    height: 620px;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.row-department > b {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#header_wait_time_min, #header_care_score {
+    display: table;
+}
+
+#header_wait_time_min > b, #header_care_score > b {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* #button-div {
+    padding-top: -1000px;
+} */
+/*
+  ##Device = Most of the Smartphones Mobiles / ipad (Portrait)
+  */
+
+@media only screen and (max-width: 750px), screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        font-size: 13px;
+        margin: 0px;
+
+    }
+
+    .banner {
+        height: 6rem;
+    }
+
+    h5 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    #intro {
+        margin: 10px 0px;
+    }
+
+    /* #left-column, #right-column {
+        width: 100%;
+        margin-left: 0px;
+    } */
+
+    /* #right-column {
+        padding: 0rem 0.5rem;
+    } */
+
+    #reset-btn-outer {
+        text-align: center;
+    }
+
+    .table-row > div {
+        width: 100% !important;
+        text-align: center;
+        margin: auto;
+    }
+
+    .table-row:nth-child(even), .table-row:nth-child(odd) {
+        background-color: #FFFFFF;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #wait_time_table:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+/* 
+    #geothermal_card > b {
+        line-height: 1.75;
+       2.5 before
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    } */
+
+    .annotation-text {
+        font-size: 0.8rem !important;
+    }
+
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Italicize text */
+.italic {
+    font-style: italic;
+  }
+  
+/* .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  } */
+
+.center {
+    display: flex;
+    padding: 50% 0; 
+    justify-content: center;
+  }
+
+.info {
+    padding: 6px 8px;
+    font: 16px/17px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
